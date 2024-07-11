@@ -1,0 +1,63 @@
+.cmscontainer {
+    background-color: #1A1A1A;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height : fit-content;
+}
+
+.cmscontainer form{
+    width: 90%;
+    background-color: #252525;
+    padding: 15px;
+    height : fit-content;
+    color : #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.cmscontainer form label{
+    margin-top : 10px;
+}
+
+.cmscontainer form input, select{
+    width : 50%;
+    background:transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+    color : #fff;
+}
+
+.cmscontainer form option{
+    color : #fff;
+    background : #1A1A1A;
+}
+
+.cmscontainer form button{
+    width:50%;
+    height:45px;
+    background : #FF14A3;
+    padding: 10px 15px;
+    color : #252525;
+    border-radius:40px;
+    box-shadow: 0 0 10px rgba(37,37,37,.1);
+    border:none;
+    margin-top:10px;
+    font-size : 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+    color : #fff;
+}
+
+.cmscontainer form button:hover {
+    color : #FF14A3;
+    background-color: #fff;
+}

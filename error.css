@@ -1,0 +1,61 @@
+* {
+    font-family: sans-serif;
+    margin :0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url("https://www.shutterstock.com/image-vector/blue-sky-cloud-vector-sunny-600nw-2214589681.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    width:95vw;
+}
+
+img {
+    padding: 5px;
+    margin-top: -50px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 5vh;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 10vh;
+}
+
+button {
+    font-size: 20px;
+    border:none;
+    background-color: #252525;
+    color : #fff;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #ff14a3 ;
+}
